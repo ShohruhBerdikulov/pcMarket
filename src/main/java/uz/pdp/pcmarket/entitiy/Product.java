@@ -17,11 +17,11 @@ public class Product {
     private String modelName;
 
     private Integer price;
-    @OneToOne
+    @ManyToOne
     private Category category;
 
     private boolean active;
-    @OneToOne
+    @ManyToOne
     private Attachment attachment;
 
 }

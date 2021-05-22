@@ -18,7 +18,7 @@ public class Characters {
     private Details details;
 
     private Integer value;
-    @OneToOne
+    @ManyToOne
     private Product product;
 
 }

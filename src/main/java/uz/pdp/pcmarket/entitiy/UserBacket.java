@@ -17,9 +17,9 @@ public class UserBacket {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private Integer allSum;
-    @OneToOne
+    @ManyToOne
     private Users users;
-    @OneToOne
+    @ManyToOne
     private OutputProduct outputProduct;
 
 }

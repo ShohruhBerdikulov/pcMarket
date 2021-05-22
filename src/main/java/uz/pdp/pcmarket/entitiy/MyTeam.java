@@ -16,10 +16,10 @@ public class MyTeam {
     private Integer id;
 
     private String fullName;
-    @OneToOne
+    @ManyToOne
     private Attachment attachment;
 
-    @OneToOne
+    @ManyToOne
     private Position position;
 
 

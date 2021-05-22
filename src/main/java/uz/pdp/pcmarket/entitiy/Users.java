@@ -21,6 +21,6 @@ public class Users {
     private String email;
 
     private String password;
-    @OneToOne
+    @ManyToOne
     private Attachment attachment;
 }

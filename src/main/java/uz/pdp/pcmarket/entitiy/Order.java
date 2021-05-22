@@ -21,6 +21,6 @@ public class Order {
     @ManyToOne
     private UserBacket userBacket;
 
-    @OneToOne
+    @ManyToOne
     private Details details;
 }

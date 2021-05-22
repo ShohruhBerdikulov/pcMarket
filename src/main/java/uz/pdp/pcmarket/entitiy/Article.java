@@ -18,7 +18,7 @@ public class Article {
     private String title;
     private String description;
     private String urlLink;
-    @OneToOne
+    @ManyToOne
     private Attachment attachment;
 
 

@@ -17,7 +17,7 @@ public class Category {
 
     private String name;
 
-    @OneToOne
+    @ManyToOne
     private Category category;
 
 }

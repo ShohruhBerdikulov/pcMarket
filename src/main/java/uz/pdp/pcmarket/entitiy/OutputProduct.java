@@ -15,7 +15,7 @@ public class OutputProduct {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @OneToOne
+    @ManyToOne
     private Product product;
 
     private Integer amount;
